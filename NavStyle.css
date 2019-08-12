@@ -1,0 +1,126 @@
+.headerbg{background:url(bg_header.jpg);
+    width: 100%;
+    height: 85px;
+    z-index: 1;
+position: fixed;
+}
+.header{
+    position: relative;
+    width: 1200px;
+    height: 85px;
+    /* border: 1px solid red; */
+margin: auto;}
+/*--------------1lv 메뉴--------------*/
+.menunav{
+    width: 1200px; 
+    height: 280px;
+    z-index: 1;
+     margin: auto;
+/* border: 1px solid red; */
+color: white;
+position: absolute;
+}
+/*-----------logo----------*/
+.menunav h1{background: url(logo.png)no-repeat;
+height: 85px; width: 237px;
+text-indent: -9999px;
+float: left;}
+
+
+/*-----------lv1----------*/
+.lv1{float: right;
+    height: 85px;
+/* border: 1px solid #000; */
+}
+.lv1 li{display: inline-block;
+padding : 10px 30px;}
+.lv1 a{
+    font-family: 'Acme', sans-serif;
+    font-size: 36px;
+    color: white;
+}
+/*-----------lv2----------*/
+.navbg{background:url(bg_header.jpg);
+    position: absolute;
+    top:85px; left: -360px;
+    z-index: -9999;
+    height: 200px; width: 1920px;
+    opacity: 0.8;
+    display: none;
+}
+.nav{margin:auto;
+    position: relative;
+    /* border: 1px solid #000; */
+width: 1200px;
+height: 200px;}
+.lv2{
+    /* margin-right: 150px; */
+    /* border: 1px solid #fff;  */
+    color: white; 
+    width: 140px; margin: auto;
+    font-family: 'Acme', sans-serif;
+    float: float;}
+
+/* .headerbg:hover .lv2{display: inline-block;} */
+.nav ul:nth-child(1)
+{position: absolute;
+right: 310px;}
+.nav ul:nth-child(2)
+{position: absolute;
+right: 152px;}
+.nav ul:nth-child(3)
+{position: absolute;
+right: -12px;}
+.lv2 li{padding: 4px 0;}
+.lv2 li a{
+    color: white;
+font-size: 18px;}
+.lv2 li:hover a{color: tomato}
+
+
+
+/*-----------배너슬라이드 임시----------*/
+.bannerslide{padding-top:150px;
+background: url(banner_01.jpg);
+background-size: cover;
+height: 515px;
+transition: all 2s ease; }
+.bannerslide:hover{background: url(banner_02.jpg);
+background-size: cover;
+}
+
+.footer{background:url(bg_header.jpg);
+height: 149px;}
+.footernav{width: 1200px;
+margin: auto;
+/* border: 1px solid #fff; */
+}
+.footernav ul{overflow: hidden;
+margin-left: 300px;
+}
+.footernav ul li{padding: 0 15px;
+border-right: 1px solid #666;
+margin:20px 0;
+float: left;}
+.footernav ul li:nth-child(6){border: none;}
+.footernav >img{margin-left:200px;
+/* margin-top:20px; */
+ }
+
+
+ /* @media only screen and (max-width: 480px) {
+    body {
+        background-color: blue;
+      }
+    }
+    @media only screen and (min-width: 481px) and (max-width: 800px) {
+      body {
+        background-color: green;
+      }
+    }
+  
+    @media only screen and (min-width: 801px) {
+        body {
+            background-color: yellow;
+          }
+    } */

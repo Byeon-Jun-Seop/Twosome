@@ -80,16 +80,6 @@ font-size: 18px;}
 
 
 
-/*-----------배너슬라이드 임시----------*/
-.bannerslide{padding-top:150px;
-background: url(banner_01.jpg);
-background-size: cover;
-height: 515px;
-transition: all 2s ease; }
-.bannerslide:hover{background: url(banner_02.jpg);
-background-size: cover;
-}
-
 .footer{background:url(bg_header.jpg);
 height: 149px;}
 .footernav{width: 1200px;
